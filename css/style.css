@@ -435,3 +435,37 @@ footer{
     left: -10%;
   }
 }
+
+@media(max-width :672px){
+  .nav-item{
+    text-align: center !important;
+  }
+  .logo{
+    height: auto;
+  }
+  .count{
+    padding: 10px 10px;
+  }
+  .middle{
+  padding: 10px;
+  /* box-sizing: border-box; */
+  /* width: 100%; */
+  /* text-align: center; */
+  /* display: flex; */
+  align-items: center;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  }
+  .btnn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .txemail{
+    margin-top: 10px;
+  }
+  .servicediv{
+    align-items: center !important;
+    padding: 10px !important;
+    justify-content: center !important;
+  }
+  }
